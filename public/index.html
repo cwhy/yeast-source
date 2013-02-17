@@ -5,8 +5,8 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>My Octopress Blog</title>
-  <meta name="author" content="Your Name">
+  <title>Yeast (酵母)</title>
+  <meta name="author" content=".cy">
 
   
   <meta name="description" content="准备运动 这是我愿意做的事之一。对，写小说，所谓去尝试那些自己真正喜爱的事吧。不尝试，也就不知晓。
@@ -21,12 +21,12 @@
 
   
   <link rel="canonical" href="http://cwhy.github.com/yeast/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <link href="/yeast/favicon.png" rel="icon">
+  <link href="/yeast/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/yeast/javascripts/modernizr-2.0.js"></script>
+  <script src="/yeast/javascripts/ender.js"></script>
+  <script src="/yeast/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Yeast (酵母)" type="application/atom+xml">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -37,9 +37,9 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">My Octopress Blog</a></h1>
+  <h1><a href="/yeast/">Yeast (酵母)</a></h1>
   
-    <h2>A blogging framework for hackers.</h2>
+    <h2>A story written by .cy</h2>
   
 </hgroup>
 
@@ -57,8 +57,8 @@
 </form>
   
 <ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/yeast/">Blog</a></li>
+  <li><a href="/yeast/blog/archives">Archives</a></li>
 </ul>
 
 </nav>
@@ -72,7 +72,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013/02/16/yeastxiao-mu/">Yeast酵母</a></h1>
+      <h1 class="entry-title"><a href="/yeast/blog/2013/yeastxiao-mu/">Yeast酵母</a></h1>
     
     
       <p class="meta">
@@ -108,7 +108,7 @@
   
   <div class="pagination">
     
-    <a href="/blog/archives">Blog Archives</a>
+    <a href="/yeast/blog/archives">Blog Archives</a>
     
   </div>
 </div>
@@ -119,14 +119,52 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2013/02/16/yeastxiao-mu/">Yeast酵母</a>
+        <a href="/yeast/blog/2013/yeastxiao-mu/">Yeast酵母</a>
       </li>
     
   </ul>
 </section>
 
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/cwhy">@cwhy</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'cwhy',
+            count: 1,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/yeast/javascripts/github.js" type="text/javascript"> </script>
+</section>
 
 
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/103829475732199622875?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
 
 
 
@@ -136,7 +174,7 @@
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Your Name -
+  Copyright &copy; 2013 - .cy -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
@@ -147,17 +185,15 @@
 
 
 
-
-
   <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
     })();
   </script>
+
+
 
 
 

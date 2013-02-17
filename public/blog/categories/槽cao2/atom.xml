@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: 槽cao2 | My Octopress Blog]]></title>
+  <title><![CDATA[Category: 槽cao2 | Yeast (酵母)]]></title>
   <link href="http://cwhy.github.com/yeast/blog/categories/槽cao2/atom.xml" rel="self"/>
   <link href="http://cwhy.github.com/yeast/"/>
-  <updated>2013-02-16T22:12:11-05:00</updated>
+  <updated>2013-02-17T00:45:41-05:00</updated>
   <id>http://cwhy.github.com/yeast/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[.cy]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Yeast酵母]]></title>
-    <link href="http://cwhy.github.com/yeast/blog/2013/02/16/yeastxiao-mu/"/>
+    <link href="http://cwhy.github.com/yeast/blog/2013/yeastxiao-mu/"/>
     <updated>2013-02-16T21:56:00-05:00</updated>
-    <id>http://cwhy.github.com/yeast/blog/2013/02/16/yeastxiao-mu</id>
+    <id>http://cwhy.github.com/yeast/blog/2013/yeastxiao-mu</id>
     <content type="html"><![CDATA[<h2>准备运动</h2>
 
 <p>这是我愿意做的事之一。对，写小说，所谓去尝试那些自己真正喜爱的事吧。不尝试，也就不知晓。
